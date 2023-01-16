@@ -248,6 +248,12 @@ const users = [
     age: 30,
     salary: 760,
   },
+  {
+    first_name: 'Anton',
+    last_name: 'Bogomolov',
+    age: 19,
+    salary: 300,
+  },
 ];
 
 const namesAndSurnames = users.map(
@@ -261,7 +267,7 @@ console.log(namesAndSurnames);
 // ['Ivan Ivanov (20): 500', 'Irina Alexandrova (46): 1500', 'Denis Sokolov (30): 760']
 
 const adultUsers = users
-  .filter(elem => elem.age > 18)
+  .filter(elem => elem.age >= 18)
   .map(
     elem => `${elem.first_name} ${elem.last_name} (${elem.age}): ${elem.salary}`
   );
@@ -272,5 +278,5 @@ console.log(adultUsers);
 
 // 3. Сформируйте новый массив без объекта, где first_name == "Irina"
 
-const newArray = users.map(elem => elem.first_name);
+const newArray = users.filter(elem => elem.first_name !== 'Irina');
 console.log(newArray);
