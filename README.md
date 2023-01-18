@@ -13,3 +13,5 @@
 - [Practice-9_19_12](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_9_19_12_Filter-array_methods)
 - [Practice-10_21_12](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_10_21_12_Reduce_forEach_sort_map)
 - [Practice-11_11_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_11_11_01%20filter_map_sort_forEach_reduce)
+- [Practice-12_16_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_12_16_01_filter_map_split_join)
+- [Practice-13_18_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_13_18_01)
