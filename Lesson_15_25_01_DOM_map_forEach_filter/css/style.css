@@ -1,0 +1,7 @@
+.new_price {
+  color: red;
+}
+.old_price {
+  color: gray;
+  text-decoration: line-through;
+}
