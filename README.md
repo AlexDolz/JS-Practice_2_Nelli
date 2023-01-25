@@ -16,3 +16,4 @@
 - [Practice-12_16_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_12_16_01_filter_map_split_join)
 - [Practice-13_18_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_13_18_01)
 - [Practice-14_23_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_14_23_01_objects_map_filter_find)
+- [Practice-15_25_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_15_25_01_DOM_map_forEach_filter)
