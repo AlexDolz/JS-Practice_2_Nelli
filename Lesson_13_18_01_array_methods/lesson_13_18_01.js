@@ -315,8 +315,8 @@ console.log(usernameArrayOfK);
 // 2. Сформировать массив из строк, описывающей каждого юзера в формате: <Имя Фамилия>, <номер телефона> (<город>, <индекс>)
 
 const ArrayOfString = users.map(
-  ({ name, phone, city, address }) =>
-    `${name}, ${phone} (${(city, address.zipcode)})`
+  ({ name, phone, address }) =>
+    `${name}, ${phone} (${address.city} ${address.zipcode})`
 );
 console.log(ArrayOfString);
 
@@ -328,6 +328,10 @@ console.log(webSitesArray);
 
 // ************************* Task 4 *********************************
 // 4. Сформировать массив из объектов с информацией о компаниях, в которых работают юзеры
+
+const companies = users.map(elem => elem.company);
+
+console.log(companies);
 
 // ************************* Task 5 *********************************
 // 5. Сформировать массив из юзеров, чьи номера телефона начинается с единицы
