@@ -18,3 +18,4 @@
 - [Practice-14_23_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_14_23_01_objects_map_filter_find)
 - [Practice-15_25_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_15_25_01_DOM_map_forEach_filter)
 - [Practice-16_30_01](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_16_30_01_classes)
+- [Practice-17_01_02](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_16_30_01_classes)
