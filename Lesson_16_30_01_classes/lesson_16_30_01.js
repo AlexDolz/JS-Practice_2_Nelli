@@ -74,30 +74,69 @@
 //С помощью класса создайте двух рабочих и найдите сумму их зарплат.
 // Реализйуте методы add_days (увеличивает количество дней на amount) и delete_days (уменьшает количество дней amount)
 
-class Worker {
-  constructor(name, surname, rate, days) {
+// class Worker {
+//   constructor(name, surname, rate, days) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.rate = rate;
+//     this.days = days;
+//   }
+//   getSalary() {
+//     return this.rate * this.days;
+//   }
+//   addDays(amount) {
+//     (this.days += amount);
+//   }
+//   deleteDays(amount) {
+//     (this.days -= amount);
+//   }
+// }
+
+// const worker1 = new Worker('Kyle', 'Rise', 100, 30);
+// const worker2 = new Worker('Mike', 'Green', 200, 30);
+// const worker3 = new Worker('John', 'Nil', 300, 30);
+
+// console.log(worker1.getSalary());
+// console.log(worker2.getSalary() + worker3.getSalary());
+
+// console.log(worker2.addDays(5));
+// console.log(worker3.deleteDays(3));
+
+// ********************* Homework ***********************************
+// Реализуйте класс Student (студент), который будет иметь следующие свойства:
+// name (имя), lastname(фамилия), major (специализация), grade (оценка)
+// Реализйуте метод get_info (выводит в консоль строку 'Имя: <Имя>, Фамилия: <Фамилия>, Специализация <специализация>, Средний балл: <оценка>')
+// Реализуйте методы change_grade_up и change_grade_down, которые будет изменять свойство grade на переданное значение
+
+class Student {
+  constructor(name, lastname, major, grade) {
     this.name = name;
-    this.surname = surname;
-    this.rate = rate;
-    this.days = days;
+    this.lastname = lastname;
+    this.major = major;
+    this.grade = grade;
   }
-  getSalary() {
-    return this.rate * this.days;
+  getInfo() {
+    console.log(
+      `Имя: ${this.name}, Фамилия: ${this.lastname}, Специализация: ${this.major}, Средний балл: ${this.grade}`
+    );
   }
-  addDays(amount) {
-    return (this.days += amount);
+
+  changeGradeUp(amount) {
+    this.grade += amount;
   }
-  deleteDays(amount) {
-    return (this.days -= amount);
+
+  changeGradeDown(amount) {
+    this.grade -= amount;
   }
 }
 
-const worker1 = new Worker("Kyle", "Rise", 100, 30);
-const worker2 = new Worker("Mike", "Green", 200, 30);
-const worker3 = new Worker("John", "Nil", 300, 30);
+let student1 = new Student('Mike', 'Bean', 'FrondEnd developer', 8);
+student1.getInfo();
 
-console.log(worker1.getSalary());
-console.log(worker2.getSalary() + worker3.getSalary());
+student1.changeGradeUp(4);
 
-console.log(worker2.addDays(5));
-console.log(worker3.deleteDays(3));
+console.log(student1);
+
+student1.changeGradeDown(2);
+
+console.log(student1);
