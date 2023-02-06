@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid blueviolet;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: azure;
+  width: 260px;
+}
+
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
