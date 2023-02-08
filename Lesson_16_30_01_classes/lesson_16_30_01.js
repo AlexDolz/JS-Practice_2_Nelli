@@ -103,7 +103,7 @@
 // console.log(worker3.deleteDays(3));
 
 // ********************* Homework ***********************************
-// Реализуйте класс Student (студент), который будет иметь следующие свойства:
+// 1. Реализуйте класс Student (студент), который будет иметь следующие свойства:
 // name (имя), lastname(фамилия), major (специализация), grade (оценка)
 // Реализйуте метод get_info (выводит в консоль строку 'Имя: <Имя>, Фамилия: <Фамилия>, Специализация <специализация>, Средний балл: <оценка>')
 // Реализуйте методы change_grade_up и change_grade_down, которые будет изменять свойство grade на переданное значение
@@ -131,12 +131,27 @@ class Student {
 }
 
 let student1 = new Student('Mike', 'Bean', 'FrondEnd developer', 8);
-student1.getInfo();
+// student1.getInfo();
 
-student1.changeGradeUp(4);
+// student1.changeGradeUp(4);
 
-console.log(student1);
+// console.log(student1);
 
-student1.changeGradeDown(2);
+// student1.changeGradeDown(2);
 
-console.log(student1);
+// console.log(student1);
+
+// *************************** Task 2 *******************************
+
+// 2. Написать функцию, которая будет создавать экземпляры класса Student и собирать их в один массив
+
+const students = [];
+
+function createStudent(name, lastname, major, grade) {
+  const student = new Student(name, lastname, major, grade);
+  students.push(student);
+  return students;
+}
+
+createStudent('Anton', 'Ushanov', 'JS', 4.5);
+createStudent('Irina', 'Petrova', 'Python', 3.5);
