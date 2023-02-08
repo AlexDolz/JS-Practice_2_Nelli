@@ -20,3 +20,4 @@
 - [Practice-16_30_01_classes](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_16_30_01_classes)
 - [Practice-17_01_02_fetch_DOM_promise](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_16_30_01_classes)
 - [Practice-18_06_02_json_fetch](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_18_06_02_json_fetch_practice)
+- [Practice-19_08_02_fetch_DOM_events](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_19_08_02_fetch_DOM_events)
