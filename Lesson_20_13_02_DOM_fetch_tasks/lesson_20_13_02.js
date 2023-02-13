@@ -60,18 +60,19 @@ toDo();
 const todosContainer = document.querySelector('.todos_container');
 
 function taskRender(tasks) {
-  const taskCards = tasks.map(elem => {
+  const taskCards = tasks.map(({ title, completed }) => {
     const card = document.createElement('div');
     const taskElem = document.createElement('p');
     const statusELem = document.createElement('p');
 
     card.classList.add('card');
 
-    taskElem.innerText = `Task: ${elem.title}`;
-    if (elem.completed == false) {
+    taskElem.innerText = `Task: ${title}`;
+
+    if (completed == false) {
       statusELem.innerText = `Status: ${'not done'}`;
       card.style.backgroundColor = 'azure';
-    } else if (elem.completed == true) {
+    } else if (completed == true) {
       statusELem.innerText = 'done';
       card.style.backgroundColor = 'lightgreen';
     }
