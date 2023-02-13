@@ -31,8 +31,7 @@ getUsers(2);
 
 // 2. При клике на кнопку 1 грузится страница 1 json, при клике на кнопку 2 грузится страница 2 json
 
-const button1 = document.getElementsByTagName('button')[0];
-const button2 = document.getElementsByTagName('button')[1];
+const [button1, button2] = document.querySelectorAll('button');
 
 button1.addEventListener('click', () => {
   getUsers(1);
