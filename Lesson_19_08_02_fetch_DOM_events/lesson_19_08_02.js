@@ -5,6 +5,7 @@
 const users_container = document.querySelector('.users_container');
 
 const render = users => {
+  users_container.innerHTML = '';
   const users_cards = users.map(({ first_name, avatar }) => {
     const card = document.createElement('div');
     const avatarElem = document.createElement('img');
@@ -27,15 +28,11 @@ const getUsers = num => {
     .then(json => render(json.data));
 };
 
-getUsers(2);
+getUsers(1);
 
 // 2. При клике на кнопку 1 грузится страница 1 json, при клике на кнопку 2 грузится страница 2 json
 
 const [button1, button2] = document.querySelectorAll('button');
 
-button1.addEventListener('click', () => {
-  getUsers(1);
-});
-button2.addEventListener('click', () => {
-  getUsers(2);
-});
+button1.addEventListener('click', () => getUsers(1));
+button2.addEventListener('click', () => getUsers(2));
