@@ -69,10 +69,10 @@ function taskRender(tasks) {
 
     taskElem.innerText = `Task: ${title}`;
 
-    if (completed == false) {
+    if (!completed) {
       statusELem.innerText = `Status: ${'not done'}`;
       card.style.backgroundColor = 'azure';
-    } else if (completed == true) {
+    } else if (completed) {
       statusELem.innerText = 'done';
       card.style.backgroundColor = 'lightgreen';
     }
