@@ -1,0 +1,17 @@
+.user_container {
+  margin: 10px 0 0 10px;
+}
+
+.user_card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.user_card img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
