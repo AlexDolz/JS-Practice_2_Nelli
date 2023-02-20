@@ -64,7 +64,7 @@ addProductForm.addEventListener('submit', event => {
   event.preventDefault();
   const { product, price } = event.target;
 
-  goods.push({
+  storedGoods.push({
     id: Date.now(),
     product: product.value,
     price: price.value,
