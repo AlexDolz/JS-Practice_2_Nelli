@@ -24,3 +24,4 @@
 - [Practice-20_13_02_DOM_fetch_tasks](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_20_13_02_DOM_fetch_tasks)
 - [Practice-21_15_02_DOM_fetch_events](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_21_15_02_fetch_events)
 - [Practice-22_20_02_event_submit_form_localStorage](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_22_20_02_event_submit_form_localStorage)
+- [Practice-23_22_02_DOM_fetch_post](https://github.com/AlexDolz/JS-Practice_2_Nelli/tree/main/Lesson_23_22_02_DOM_fetch_post)
