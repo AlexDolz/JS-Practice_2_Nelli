@@ -68,7 +68,3 @@ function addProduct(obj_from_form) {
     .then(res => res.json())
     .then(json => console.log(json));
 }
-
-// FIXME
-// To render new object
-// image here is array
